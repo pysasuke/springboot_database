@@ -220,12 +220,6 @@ public class TestJpa {
 ```
 - mongo:TestMongo类,mongodb测试
 ```
-/**
- * mongodb测试
- *
- * @author pysasuke
- * @create 2017-09-15
- */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = SpringbootDatabaseApplication.class)
 public class TestMongo {
